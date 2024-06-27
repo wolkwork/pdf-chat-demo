@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "ai-pdf-bot-demo"
+version = "0.1.0"
+description = ""
+authors = ["Nathan Clerkx <nathan@wolk.work>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+langchain = "^0.2.6"
+pypdf2 = "^3.0.1"
+python-dotenv = "^1.0.1"
+langchain-community = "^0.2.6"
+openai = "^1.35.4"
+tiktoken = "^0.7.0"
+faiss-cpu = "^1.8.0.post1"
+langchain-openai = "^0.1.10"
+fastapi = "^0.111.0"
+uvicorn = "^0.30.1"
+jinja2 = "^3.1.4"
+langserve = "^0.2.2"
+# streamlit = "^1.36.0"
+# unstructured = {extras = ["all-docs"], version = "^0.14.8"}
+# pypandoc = "^1.13"
+sse-starlette = "^2.1.2"
+pypdf = "^4.2.0"
+langchain-chroma = "^0.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
