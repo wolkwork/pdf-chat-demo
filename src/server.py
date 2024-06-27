@@ -4,7 +4,6 @@ from langserve import add_routes
 
 
 from .chains.simple_rag import chain  # type: ignore
-from .chains.cited_rag import cited_chain  # type: ignore
 from .utils import get_retriever
 
 
