@@ -12,3 +12,4 @@ COPY src ./src
 
 EXPOSE 8000
 CMD ["poetry", "run", "uvicorn", "src.server:app", "--proxy-headers", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+# CMD ["poetry", "run", "python", "src/server.py" ]
